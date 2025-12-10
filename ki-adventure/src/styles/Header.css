@@ -1,0 +1,94 @@
+:root {
+  font-size: 62.5%;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  width: 100%;
+  border: 2px solid rgb(145, 145, 145);
+  border-style: ridge;
+}
+
+.house {
+  font-size: 2.5rem;
+  text-align: center;
+  border: 2px solid rgb(145, 145, 145);
+  cursor: pointer;
+  border-style: ridge;
+  background-color: rgb(209, 191, 165);
+}
+
+.headerh1 {
+  cursor: default;
+  margin-top: 0.2rem;
+  background-color: beige;
+}
+
+.flag {
+  font-size: 2.5rem;
+  text-align: center;
+  border: 2px solid rgb(145, 145, 145);
+  cursor: pointer;
+  border-style: ridge;
+  background-color: rgb(209, 191, 165);
+}
+
+.choosenLanguage {
+  height: 35px;
+  width: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 9px;
+}
+
+.menuwrapper {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  right: 2px;
+  max-height: 250px;
+  overflow-y: scroll;
+  width: 100px;
+  scrollbar-color: rgb(83, 65, 65) rgb(182, 177, 168);
+  scrollbar-width: thin;
+  
+  
+}
+
+.flagButton{
+    border: 2px solid rgb(145, 145, 145);
+  border-style: ridge;
+  margin-right: 2px;
+  cursor: pointer;
+  background-color: rgb(202, 187, 179);
+
+}
+
+.flags {
+  height: 35px;
+  width: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 9px;
+  
+}
